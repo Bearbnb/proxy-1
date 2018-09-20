@@ -5,7 +5,9 @@
 }
 
 #booking-widget {
-  margin-left: 75%
+  margin-left: 75%;
+  position: sticky;
+  margin-top: 50%;
   /* grid-column-start: 3; */
 }
 
