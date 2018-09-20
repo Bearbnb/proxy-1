@@ -1,0 +1,20 @@
+.main {
+  /* display: grid;
+  grid-template-columns: 300px 1fr 400px;
+  grid-template-rows: 500px 1fr */
+}
+
+#booking-widget {
+  margin-left: 75%;
+  position: sticky;
+  margin-top: 50%;
+  /* grid-column-start: 3; */
+}
+
+/* #app-description-service {
+  grid-column-start: 2;
+} */
+
+#AppReviewService {
+  width: 600px;
+}
