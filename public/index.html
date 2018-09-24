@@ -7,17 +7,26 @@
     <link rel="stylesheet" type="text/css" href="./style.css"  />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
     <title>Airbnb</title>
   </head>
 
   <body>
     <div class="main">
+      <div class="search-bar">
+        <img class="center-fit" src="https://s3-us-west-1.amazonaws.com/bearbnbphotos/bbnb.png" alt="">
+      </div>
       <div id="root"></div>
-      <div id="app-description-service"></div>
-      <div id="AppReviewsService"></div>
       <div id="booking-widget"></div>
-      
-      <script src="https://s3.amazonaws.com/airbnb-bundles/bundle.min.js"></script>
+      <div id="body">
+        <div id="app-description-service"></div>
+        <div id="AppReviewsService"></div>
+      </div>
+
+      <script src="http://bearbnbdescription-env1.b4nkf45hnu.us-west-2.elasticbeanstalk.com/static/dist/bundle.js"></script>
+      <script src="http://bearbnbreviews-env.rppvejjmcc.us-east-1.elasticbeanstalk.com/static/bundle.js"></script>
+      <script src="http://bearbnbbooking-env.bz7dpdnrpj.us-west-1.elasticbeanstalk.com/static/bundle.js"></script>
+      <script src="http://eastphotos-env.fdvpa3pswm.us-east-1.elasticbeanstalk.com/static/dist/bundle.js"></script>
 
     </div>
   </body>

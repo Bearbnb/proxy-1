@@ -1,20 +1,33 @@
-.main {
-  /* display: grid;
-  grid-template-columns: 300px 1fr 400px;
-  grid-template-rows: 500px 1fr */
-}
-
 #booking-widget {
-  margin-left: 75%;
-  position: sticky;
-  margin-top: 50%;
-  /* grid-column-start: 3; */
+  position: sticky !important;
+  top: 100px !important;
+  padding-right: 5%;
+  margin-top: 100px;
 }
-
-/* #app-description-service {
-  grid-column-start: 2;
-} */
 
 #AppReviewService {
   width: 600px;
+  margin-left: -25% !important;
 }
+
+#body {
+  margin-left: -25% !important;
+}
+
+._29NlXvvEEIQAH0FIGBrmhp {
+  bottom: 34% !important;
+}
+
+.search-bar {
+  z-index: 900;
+  display: grid;
+  height: 100%;
+  top: 0;
+  position: sticky;
+}
+
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+ }
